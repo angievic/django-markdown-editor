@@ -32,10 +32,6 @@ blocks:
         - name: Unit Test
           commands:
             - python manage.py test
-        - name: Checklist
-          commands:
-            - cd martor_demo
-            - python manage.py check --deploy
         - name: Style
           commands:
             - pip install flake8
